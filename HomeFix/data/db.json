@@ -1,0 +1,175 @@
+{
+  "services": [
+    {
+      "id": "1",
+      "name": "Plumbing",
+      "price": 499,
+      "rating": 4.8,
+      "image": "/images/plumbing.jpg",
+      "description": "Professional plumbing services for leaking pipes, taps, bathroom fittings and water-related problems."
+    },
+    {
+      "id": "2",
+      "name": "Electrical",
+      "price": 599,
+      "rating": 4.7,
+      "image": "/images/electrical.jpg",
+      "description": "Expert electrical services including wiring, switches, sockets, fans, lights and electrical repairs."
+    },
+    {
+      "id": "3",
+      "name": "Home Cleaning",
+      "price": 799,
+      "rating": 4.9,
+      "image": "/images/cleaning.jpg",
+      "description": "Complete home cleaning services for bedrooms, kitchens, bathrooms and living areas."
+    },
+    {
+      "id": "4",
+      "name": "Painting",
+      "price": 1499,
+      "rating": 4.6,
+      "image": "/images/painting.jpg",
+      "description": "Professional interior and exterior painting services with quality materials."
+    },
+    {
+      "id": "5",
+      "name": "AC Repair",
+      "price": 699,
+      "rating": 4.8,
+      "image": "/images/ac-repair.jpg",
+      "description": "AC installation, servicing, gas filling and repair services for your home."
+    },
+    {
+      "id": "6",
+      "name": "Appliance Repair",
+      "price": 599,
+      "rating": 4.5,
+      "image": "/images/appliance.jpg",
+      "description": "Repair services for washing machines, refrigerators, microwaves and other home appliances."
+    }
+  ],
+  "users": [
+    {
+      "name": "Vasu",
+      "email": "vasu@1234",
+      "password": "Pace@1234",
+      "id": "9c_6jnnWp34"
+    },
+    {
+      "name": "Admin",
+      "email": "Admin@gmail.com",
+      "password": "Admin@123",
+      "role": "user",
+      "id": "AmOFKvFQsjk"
+    },
+    {
+      "name": "Vasu",
+      "email": "vasu@gmail.com",
+      "password": "Pace@123",
+      "role": "user",
+      "id": "f9LVavJzN-4"
+    },
+    {
+      "name": "Vasu",
+      "email": "vasu@gamil.com",
+      "password": "Pace@123",
+      "role": "user",
+      "id": "wDFc3a9PHqQ"
+    }
+  ],
+  "bookings": [
+    {
+      "userId": "wDFc3a9PHqQ",
+      "userName": "Vasu",
+      "serviceId": "3",
+      "serviceName": "Home Cleaning",
+      "price": 799,
+      "date": "2026-09-21",
+      "time": "11:20",
+      "address": "ongole",
+      "phone": "9010123456",
+      "status": "Confirmed",
+      "id": "TEykiCwM_4M"
+    },
+    {
+      "userId": "wDFc3a9PHqQ",
+      "userName": "Vasu",
+      "serviceId": "2",
+      "serviceName": "Electrical",
+      "price": 599,
+      "date": "2026-09-05",
+      "time": "11:32",
+      "address": "rajupalwe\n",
+      "phone": "9010123456",
+      "status": "Confirmed",
+      "id": "s-2eo9dqLfM"
+    },
+    {
+      "userId": "wDFc3a9PHqQ",
+      "userName": "Vasu",
+      "serviceId": "2",
+      "serviceName": "Electrical",
+      "price": 599,
+      "date": "2026-09-11",
+      "time": "15:08",
+      "address": "onhwxzg",
+      "phone": "9010123456",
+      "status": "Confirmed",
+      "id": "tOfZHuG5mA0"
+    },
+    {
+      "userId": "wDFc3a9PHqQ",
+      "userName": "Vasu",
+      "serviceId": "2",
+      "serviceName": "Electrical",
+      "price": 599,
+      "date": "2026-09-04",
+      "time": "19:31",
+      "address": "Ongole",
+      "phone": "9010123456",
+      "status": "Completed",
+      "id": "eSoXGsxb9ng"
+    },
+    {
+      "userId": "9c_6jnnWp34",
+      "userName": "Vasu",
+      "serviceId": "2",
+      "serviceName": "Electrical",
+      "price": 599,
+      "date": "2026-09-11",
+      "time": "08:37",
+      "address": "ongole",
+      "phone": "9010123456",
+      "status": "Completed",
+      "id": "JiPxhWEzGW8"
+    },
+    {
+      "userId": "9c_6jnnWp34",
+      "userName": "Vasu",
+      "serviceId": "2",
+      "serviceName": "Electrical",
+      "price": 599,
+      "date": "2026-09-11",
+      "time": "08:48",
+      "address": "Hydrabadh",
+      "phone": "9010123456",
+      "status": "Confirmed",
+      "id": "Wz8924flXHM"
+    },
+    {
+      "userId": "9c_6jnnWp34",
+      "userName": "Vasu",
+      "serviceId": "6",
+      "serviceName": "Appliance Repair",
+      "price": 599,
+      "date": "2026-09-04",
+      "time": "14:13",
+      "address": "Kamapalle",
+      "phone": "9010123456",
+      "status": "Confirmed",
+      "id": "9C9c76eCQwA"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

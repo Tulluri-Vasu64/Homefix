@@ -1,0 +1,10 @@
+.footer {
+  background: #212529;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.footer h2 {
+  margin-bottom: 10px;
+}
